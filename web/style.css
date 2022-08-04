@@ -1,0 +1,186 @@
+
+body {
+    animation-name: animated;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-play-state: running;
+    animation-timing-function:ease;
+
+}
+#tt {
+    margin-left: 780px;
+}
+#tet.active {
+    background-color: white;
+    color: black;
+}
+#tet {
+        transition: 0.5s;
+        border-radius:20px;
+        border: 1px solid #ccc;     
+        transition-timing-function: ease-in-out;
+}
+#tet:hover {  
+        box-shadow: 0 0 11px rgba(33,33,33,.2);    
+        transform: scale(1.1);
+        background-color: white;
+        color: black;
+}
+#ct {
+    width: 650px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 78px;
+    border: 1px solid #0275d8;
+}
+#crd {
+    margin-left:350px;
+    width: 500px;
+}
+#crd1 {
+    margin-left:100px;
+    width: 500px;
+}
+.card {
+  min-height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: 0.5s;
+  border-radius: 12px;
+  transition-timing-function: ease;
+}
+#bts {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    background-color: #0275d8;
+    color: white;
+    border-radius: 50px;
+}
+#bts:hover {
+    transform: scale(1.1);
+}
+.card:hover {
+    transform:scale(1.05);
+}
+#gt {
+    margin-top: 8px;
+    margin-left: 185px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#tit {
+    transition: 0.5s;
+}
+#tit:hover {
+    transform: scale(1.03);
+}
+#tit1 {
+    transition: 0.5s;
+}
+#tit1:hover {
+    transform: scale(1.15);
+}
+#hd {
+    padding-top: 290px;
+    padding-left: 500px;
+    font-weight: bolder;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: white;
+    transition: 0.5s;
+}
+.progress {
+    width: 520px;
+}
+#bt2 {
+   margin-left: 1700px; 
+   transition: 0.5s;
+}
+#bt2:hover{
+    transform: scale(1.1);
+}
+#aze {
+    padding: 20px;
+    transition: 0.2s;
+}
+#aze:hover {
+    transform: scale(1.1);
+    border: 1px solid gray;
+}
+#defaultContactFormName {
+    border:none;
+    border-bottom: 2px solid rgb(112, 111, 111);
+    border-radius: 1px;
+    border-color:#0275d8;
+}
+#exampleFormControlTextarea1 {
+    border:none;
+    border: 2px solid rgb(112, 111, 111);
+    border-color:#0275d8;
+}
+#defaultContactFormEmail{
+    border:none;
+    border-bottom: 2px solid rgb(112, 111, 111);
+    border-radius: 1px;
+    border-color:#0275d8;
+}   
+#foot {
+    margin-top: 172px;
+    height: 90px;
+}
+#bt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 88px;
+    transition: 0.5s;
+}
+#bt:hover {
+    transform: scale(1.1);
+}
+#bt1:hover {
+    transform: scale(1.1);
+}
+#bt1 {
+    transition: 0.5s;
+    margin-top:45px;
+    margin-left: 1450px;
+}
+#kl {
+    transition:0.5s;
+    box-shadow: rgba(255, 255, 255, 0.5) 10px 20px 30px -10px;
+}
+#kl:hover {
+    transform: scale(1.15);
+}
+
+@keyframes animated {
+
+    0% {
+        background-image: url("lake.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    30% {
+        background-image: url("christ.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    60% {
+        background-image: url("ballon.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+
+    }
+    100% {
+        background-image: url("cap.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+
+    }
+ 
+    
+}
+
